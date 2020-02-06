@@ -9,6 +9,8 @@
   "author": "Valjang",
   "license": "ISC",
   "dependencies": {
+    "@tensorflow/tfjs": "^1.5.2",
+    "@tensorflow/tfjs-node": "^1.5.2",
     "fs": "0.0.1-security",
     "path": "^0.12.7",
     "serialport": "^8.0.7",
