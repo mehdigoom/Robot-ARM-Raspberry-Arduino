@@ -67,7 +67,7 @@ arduino.open(function (err) {
 // Requetes
 io.sockets.on('connection', function (socket) {
     // Message à la connexion
-  console.log('Connexion socket : Ok');
+  console.log('Connexion socket : Ok '+socket.id);
   socket.emit('message', 'Connexion : Ok');
     // Le serveur reçoit un message" du navigateur    
     socket.on('message', function (msg) {
