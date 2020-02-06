@@ -1,6 +1,10 @@
 var usbserial = '/dev/cu.usbmodem1451'; // Pour mon UNO et mon MEGA
 //var usbserial = '/dev/cu.usbserial-AL02VFGY'; // Pour mon NANO
- 
+const tf = require('@tensorflow/tfjs')
+// Load the binding (CPU computation)
+require('@tensorflow/tfjs-node')
+
+
 var http = require('http');
 var fs = require('fs');
 var path = require("path");
