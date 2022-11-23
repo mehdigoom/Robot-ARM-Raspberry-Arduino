@@ -15,7 +15,7 @@
     "node-pre-gyp": "^0.14.0",
     "path": "^0.12.7",
     "serialport": "^8.0.7",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.5.0",
     "url": "^0.11.0"
   }
 }
